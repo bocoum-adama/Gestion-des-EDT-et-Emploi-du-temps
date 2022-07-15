@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relativeLayout7"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AjoutEDT">
+
+    <TextView
+        android:id="@+id/textViewcla"
+        android:layout_width="179dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="116dp"
+        android:layout_marginTop="60dp"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/Datecours"
+        android:layout_width="250dp"
+        android:layout_height="66dp"
+        android:layout_marginStart="76dp"
+        android:layout_marginTop="176dp"
+        android:ems="10"
+        android:hint="Datecours"
+        android:inputType="date"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/heurcours"
+        android:layout_width="252dp"
+        android:layout_height="67dp"
+        android:layout_marginStart="76dp"
+        android:layout_marginTop="268dp"
+        android:ems="10"
+        android:hint="heurcours"
+        android:inputType="time"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/cours"
+        android:layout_width="253dp"
+        android:layout_height="75dp"
+        android:layout_marginStart="76dp"
+        android:layout_marginTop="368dp"
+        android:ems="10"
+        android:hint="cours"
+        android:inputType="textPersonName"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/valider1"
+        android:layout_width="164dp"
+        android:layout_height="63dp"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="592dp"
+        android:text="valider"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/nombrheur"
+        android:layout_width="250dp"
+        android:layout_height="69dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="472dp"
+        android:ems="10"
+        android:hint="nombresheur"
+        android:inputType="number"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

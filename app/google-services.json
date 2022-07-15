@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "789743624164",
+    "project_id": "dsdevmob",
+    "storage_bucket": "dsdevmob.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:789743624164:android:dbf3a5d917d28f259c31f1",
+        "android_client_info": {
+          "package_name": "sn.ipsl.gestionedt_sallesdecours_ipsl"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "789743624164-c5tfbru8n0as0ha4cfid5742nn4gqovk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBO852qkOMgbViBXdSRfuZO2LtxPNqwdqg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "789743624164-c5tfbru8n0as0ha4cfid5742nn4gqovk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

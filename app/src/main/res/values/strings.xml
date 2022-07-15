@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">GestionEDT_Sallesdecours_IPSL</string>
+    <string-array name="role">
+        <item>CSP</item>
+        <item>etudiant</item>
+        <item>professeur</item>
+    </string-array>
+</resources>

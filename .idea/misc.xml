@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/GestionEDT_Sallesdecours_IPSL/app/src/main/res/layout/activity_add_salle.xml" value="0.17074275362318841" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/GestionEDT_Sallesdecours_IPSL/app/src/main/res/layout/activity_add_user.xml" value="0.17074275362318841" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/GestionEDT_Sallesdecours_IPSL/app/src/main/res/layout/activity_admin_interface.xml" value="0.22" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/GestionEDT_Sallesdecours_IPSL/app/src/main/res/layout/activity_ajout_edt.xml" value="0.17074275362318841" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/GestionEDT_Sallesdecours_IPSL/app/src/main/res/layout/activity_ajout_edt_final.xml" value="0.17074275362318841" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/GestionEDT_Sallesdecours_IPSL/app/src/main/res/layout/activity_ajout_edt_niveau.xml" value="0.17074275362318841" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/GestionEDT_Sallesdecours_IPSL/app/src/main/res/layout/activity_consulter_edt.xml" value="0.25" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/GestionEDT_Sallesdecours_IPSL/app/src/main/res/layout/activity_consulter_edtjours.xml" value="0.17074275362318841" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/GestionEDT_Sallesdecours_IPSL/app/src/main/res/layout/activity_main.xml" value="0.2" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

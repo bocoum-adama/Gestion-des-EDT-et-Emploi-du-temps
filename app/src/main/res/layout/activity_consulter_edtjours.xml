@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relativeLayout9"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ConsulterEDTjours">
+
+    <Button
+        android:id="@+id/jeudi"
+        android:layout_width="189dp"
+        android:layout_height="74dp"
+        android:layout_marginStart="200dp"
+        android:layout_marginTop="360dp"
+        android:text="JEUDI"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/vendredi"
+        android:layout_width="189dp"
+        android:layout_height="74dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="432dp"
+        android:text="VENDREDI"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/samedi"
+        android:layout_width="189dp"
+        android:layout_height="74dp"
+        android:layout_marginStart="200dp"
+        android:layout_marginTop="516dp"
+        android:text="SAMEDI"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/lundi"
+        android:layout_width="189dp"
+        android:layout_height="74dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="132dp"
+        android:text="LUNDI"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/mercredi"
+        android:layout_width="189dp"
+        android:layout_height="74dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="280dp"
+        android:text="MERCREDI"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/mardi"
+        android:layout_width="189dp"
+        android:layout_height="74dp"
+        android:layout_marginStart="204dp"
+        android:layout_marginTop="208dp"
+        android:background="@color/white"
+        android:text="MARDI"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
