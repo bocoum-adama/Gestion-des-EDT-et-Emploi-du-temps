@@ -45,7 +45,9 @@ public class ConsulterEDT extends AppCompatActivity {
             j=recupere.getStringExtra(global_jour);
 
         }
-        int jr= Integer.parseInt(j);
+        String[] var=j.split(":");
+        int jr= Integer.parseInt(var[0]);
+        String classe=var[1];
 
         dao.getedt(jr).addOnCompleteListener(new OnCompleteListener<QuerySnapshot>() {
             @Override
@@ -56,7 +58,7 @@ public class ConsulterEDT extends AppCompatActivity {
                         String[] hr = u.getHeure().split(":");
                         int heur =Integer.parseInt(hr[0]);
                         for (int i=0;i<u.getNombre_heur();i++){
-                            tv[heur-8].setText(u.getCours());
+                            tv[heur-8].setText(u.getCours()+" : "+u.getSall());
                             int color = (0xff) << 24 | (0xa6) << 16 | (0xca) << 8 | (0xf0);
                             tv[heur-8].setBackgroundColor(color);
                             heur=heur+1;

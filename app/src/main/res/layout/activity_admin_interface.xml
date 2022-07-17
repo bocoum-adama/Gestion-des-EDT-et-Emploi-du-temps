@@ -9,31 +9,39 @@
 
     <Button
         android:id="@+id/btn_creercompte"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="188dp"
+        android:layout_height="72dp"
         android:layout_marginStart="12dp"
-        android:layout_marginTop="36dp"
+        android:layout_marginTop="328dp"
         android:text="Creer Compte"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/btn_ajout_salle"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="148dp"
-        android:layout_marginTop="156dp"
+        android:layout_width="190dp"
+        android:layout_height="76dp"
+        android:layout_marginStart="212dp"
+        android:layout_marginTop="328dp"
         android:text="Ajouter Salle"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/btn_ajout_edt"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="240dp"
-        android:layout_marginTop="268dp"
+        android:layout_width="188dp"
+        android:layout_height="79dp"
+        android:layout_marginStart="212dp"
+        android:layout_marginTop="468dp"
         android:text="Ajouter EDT"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/voiredt"
+        android:layout_width="188dp"
+        android:layout_height="78dp"
+        android:text="VUSIALISER EDT"
+        tools:layout_editor_absoluteX="12dp"
+        tools:layout_editor_absoluteY="467dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>

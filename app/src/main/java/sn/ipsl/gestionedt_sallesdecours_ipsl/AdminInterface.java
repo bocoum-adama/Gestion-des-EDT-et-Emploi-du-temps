@@ -8,7 +8,7 @@ import android.view.View;
 import android.widget.Button;
 
 public class AdminInterface extends AppCompatActivity {
-    Button creerCompte,ajoutSalle,ajoutEDT;
+    Button creerCompte,ajoutSalle,ajoutEDT,vueedt;
 
 
     @Override
@@ -18,6 +18,8 @@ public class AdminInterface extends AppCompatActivity {
         creerCompte=(Button) findViewById(R.id.btn_creercompte);
         ajoutSalle=(Button) findViewById(R.id.btn_ajout_salle);
         ajoutEDT=(Button) findViewById(R.id.btn_ajout_edt);
+        vueedt=(Button) findViewById(R.id.voiredt);
+
         creerCompte.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -37,6 +39,13 @@ public class AdminInterface extends AppCompatActivity {
             public void onClick(View view) {
                 Intent ordre6 = new Intent(getApplicationContext(),AjoutEDT_niveau.class);
                 startActivity(ordre6);
+            }
+        });
+        vueedt.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent ordre7 = new Intent(getApplicationContext(),ConsulterEDTjours.class);
+                startActivity(ordre7);
             }
         });
     }
